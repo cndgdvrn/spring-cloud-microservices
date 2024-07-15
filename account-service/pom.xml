@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <parent>
+        <groupId>com.ms</groupId>
+        <artifactId>service-parent</artifactId>
+        <version>1.0-SNAPSHOT</version>
+        <relativePath>../service-parent/pom.xml</relativePath>
+    </parent>
+
+    <artifactId>account-service</artifactId>
+    <version>0.0.1-SNAPSHOT</version>
+    <name>account-service</name>
+    <description>Account Service</description>
+
+    <dependencies>
+
+        <!--mongodb-->
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-data-mongodb</artifactId>
+        </dependency>
+
+
+    </dependencies>
+
+    <build>
+        <plugins>
+            <plugin>
+                <groupId>org.springframework.boot</groupId>
+                <artifactId>spring-boot-maven-plugin</artifactId>
+            </plugin>
+        </plugins>
+    </build>
+</project>
+
+
+        <!--<?xml version="1.0" encoding="UTF-8"?>-->
+        <!--<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"-->
+        <!--         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">-->
+        <!--    <modelVersion>4.0.0</modelVersion>-->
+        <!--    <parent>-->
+        <!--        <groupId>com.ms</groupId>-->
+        <!--        <artifactId>ms-app</artifactId>-->
+        <!--        <version>1.0-SNAPSHOT</version>-->
+        <!--        <relativePath/> &lt;!&ndash; lookup parent from repository &ndash;&gt;-->
+        <!--    </parent>-->
+
+        <!--    <artifactId>account-service</artifactId>-->
+        <!--    <version>0.0.1-SNAPSHOT</version>-->
+        <!--    <name>account-service</name>-->
+        <!--    <description>Ms account service</description>-->
+        <!--    <url/>-->
+        <!--    <licenses>-->
+        <!--        <license/>-->
+        <!--    </licenses>-->
+        <!--    <developers>-->
+        <!--        <developer/>-->
+        <!--    </developers>-->
+        <!--    <scm>-->
+        <!--        <connection/>-->
+        <!--        <developerConnection/>-->
+        <!--        <tag/>-->
+        <!--        <url/>-->
+        <!--    </scm>-->
+        <!--    <properties>-->
+        <!--        <java.version>17</java.version>-->
+        <!--    </properties>-->
+        <!--    <dependencies>-->
+        <!--        <dependency>-->
+        <!--            <groupId>org.springframework.boot</groupId>-->
+        <!--            <artifactId>spring-boot-starter-web</artifactId>-->
+        <!--        </dependency>-->
+
+        <!--        <dependency>-->
+        <!--            <groupId>org.springframework.boot</groupId>-->
+        <!--            <artifactId>spring-boot-starter-test</artifactId>-->
+        <!--            <scope>test</scope>-->
+        <!--        </dependency>-->
+
+        <!--        &lt;!&ndash;mongodb&ndash;&gt;-->
+        <!--        <dependency>-->
+        <!--            <groupId>org.springframework.boot</groupId>-->
+        <!--            <artifactId>spring-boot-starter-data-mongodb</artifactId>-->
+        <!--        </dependency>-->
+
+        <!--        &lt;!&ndash;lombok&ndash;&gt;-->
+        <!--        <dependency>-->
+        <!--            <groupId>org.projectlombok</groupId>-->
+        <!--            <artifactId>lombok</artifactId>-->
+        <!--            <optional>true</optional>-->
+        <!--        </dependency>-->
+
+        <!--    </dependencies>-->
+
+        <!--    <build>-->
+        <!--        <plugins>-->
+        <!--            <plugin>-->
+        <!--                <groupId>org.springframework.boot</groupId>-->
+        <!--                <artifactId>spring-boot-maven-plugin</artifactId>-->
+        <!--            </plugin>-->
+        <!--        </plugins>-->
+        <!--    </build>-->
+
+        <!--</project>-->
