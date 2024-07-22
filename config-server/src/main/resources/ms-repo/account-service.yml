@@ -1,0 +1,15 @@
+
+spring:
+  application:
+    name: account-service
+  data:
+    mongodb:
+      uri: mongodb://mongo:mongo@localhost:27017
+      database: account-service
+      authentication-database: admin
+      auto-index-creation: true # To make fields unique
+#  cloud:
+#    config:
+#      uri: http://localhost:8888
+#      fail-fast: true
+#      name: account-service
